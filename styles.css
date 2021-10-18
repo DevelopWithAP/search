@@ -1,0 +1,113 @@
+p 
+{
+    text-align: center;
+    font-size: xxx-large;
+    font-style: normal;
+    font-family: Gill Sans Extrabold, sans-serif;
+    margin-top: 300px;
+}
+
+a
+{
+   margin-top: 15px;
+   color: gray;
+   font-size: small; 
+}
+
+a:hover
+{
+    text-decoration-line: underline;
+    color: gray;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchBar
+{
+    border-radius: 15px;
+    width: 65%;
+    margin: auto;
+}
+
+#submit, #lucky
+{
+    border-radius: 6px;
+    width:fit-content;
+    margin: auto;
+    background-color: skyblue;
+}
+
+#btnDiv, #advancedSearchBtn
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+#div1
+{
+    margin-top: 30px;
+    margin-left: 35px;
+    color: red;
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+ #formDiv
+{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 35px;
+} 
+
+.container-fluid
+{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.input
+{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    column-gap: 15px;
+}
+
+#input
+{
+    width: 50%;
+    margin-top: 13px;
+    height: 27px;
+    border-style: solid 5px;
+    border-radius: 0px;
+}
+
+#searchLabel
+{
+    font-size: small;
+}
+
+#advancedSearchBtn
+{
+    margin-left: 220px;
+}
+
+#submitAdvanced
+{
+    height: 35px;
+    width: fit-content;
+    font-size: small;
+    background-color: rgb(31, 123, 228);
+    color: white;
+    
+}
+
+
+
+
